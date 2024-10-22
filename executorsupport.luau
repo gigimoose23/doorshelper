@@ -176,5 +176,5 @@ for name, result in pairs(ExecutorSupport) do
         print("❓ [" .. tostring(name) .. "]", tostring(result))
     end
 end
+shared.ExecutorSupport = ExecutorSupport
 
-return ExecutorSupport
